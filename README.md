@@ -2,7 +2,7 @@
 
 > A beautiful, real-time dashboard that tracks the latest versions of 87+ programming languages, frameworks, databases, and development tools.
 
-[🌐 Live Demo](#) | [📖 Documentation](#features) | [🐛 Report Bug](https://github.com/nakvi/latest-tech-version/issues) | [✨ Request Feature](https://github.com/nakvi/latest-tech-version/issues)
+[🌐 Live Demo](https://latest-tech-version.vercel.app/) | [📖 Documentation](#features) | [🐛 Report Bug](https://github.com/nakvi/latest-tech-version/issues) | [✨ Request Feature](https://github.com/nakvi/latest-tech-version/issues)
 
 ---
 
@@ -11,11 +11,11 @@
 <div align="center">
 
 ### Desktop View
-![Desktop View](./screenshots/desktop-hero.png)
+![Desktop View](https://github.com/nakvi/latest-tech-version/blob/main/public/version-tracker.png)
 
 
 ### Search & Filter
-![Search Functionality](./screenshots/search-demo.png)
+![Search Functionality](https://github.com/nakvi/latest-tech-version/blob/main/public/version-tracker-2.png)
 
 </div>
 
