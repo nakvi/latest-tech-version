@@ -299,3 +299,20 @@ This project was inspired by the need to have a single source of truth for check
 Made with ❤️ by [Toseeq Naqvi](https://github.com/nakvi)
 
 </div>
+## Sanity Studio
+
+The embedded content editor is available at `/studio` (including its sub-routes).
+Set `NEXT_PUBLIC_SANITY_PROJECT_ID` and `NEXT_PUBLIC_SANITY_DATASET` in
+`.env.local` for development and in the Vercel project's Environment Variables
+for each deployment environment. Redeploy after changing those variables.
+
+Register your project's existing document schemas in
+`sanity/schemaTypes/index.ts`. This repository currently has no document schemas;
+connecting a dataset does not download its schema definitions.
+
+In your Sanity project's API settings, allow `http://localhost:3000` and
+`https://latest-tech-version.vercel.app` as CORS origins with credentials for
+Studio login. Add any custom domain you use as well.
+
+Commit the Studio files and dependency files, push to your connected repository,
+and wait for a new Vercel deployment before visiting the production `/studio`.
